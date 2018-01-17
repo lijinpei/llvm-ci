@@ -1,0 +1,19 @@
+- name: llvm
+  url: https://github.com/llvm-mirror/llvm.git
+  path: llvm
+
+- name: clang
+  url: https://github.com/llvm-mirror/clang.git
+  path: llvm/tools/clang
+
+- name: polly
+  url: https://github.com/llvm-mirror/polly.git
+  path: llvm/tools/polly
+
+- name: test-suite
+  url: https://github.com/llvm-mirror/test-suite.git
+  path: llvm/projects/test-suite
+
+- name: lnt
+  url: https://github.com/llvm-mirror/lnt.git
+  path: lnt
